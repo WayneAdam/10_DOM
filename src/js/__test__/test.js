@@ -9,6 +9,10 @@ test('Метод setsRandomNumber возвращает число в преде�
 
   expect(randomNumber).toBeGreaterThanOrEqual(0);
   expect(randomNumber).toBeLessThan(cells.length);
+
+  field.cells = Array.from({ length: cells.length }, (_, i) => i);
+  const randomNumber2 = field.setsRandomNumber();
+  expect(randomNumber2).not.toBe(randomNumber);
 });
 
 test('Метод deleteActiveClass удаляет класс cell_active', () => {

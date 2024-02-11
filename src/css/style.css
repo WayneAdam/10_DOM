@@ -4,7 +4,7 @@ body {
 }
 
 .field {
-    background-color:rgb(57, 231, 66);
+    background-color:rgb(105, 105, 105);
     display: flex;
     flex-wrap: wrap;
     width: 408px;
