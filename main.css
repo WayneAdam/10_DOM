@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.field {
+    background-color:rgb(105, 105, 105);
+    display: flex;
+    flex-wrap: wrap;
+    width: 408px;
+}
+
+.cell {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.cell_active {
+    background-image: url(images/2dbd01ce16c0fa83cb67.png);
+    background-size: contain;
+}
+
